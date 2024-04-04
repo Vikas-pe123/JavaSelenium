@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class RemoveDuplicatesCharFromString {
 	public static void main(String[] args) {
-		String s= "nayan";
+		String s= "nayanmadamn";
 		char [] a = s.toCharArray();
 		HashMap<Character, Integer> hm = new HashMap<Character, Integer>();
 		for(char charvalue:a)
@@ -21,18 +21,21 @@ public class RemoveDuplicatesCharFromString {
 		}
 		
 		System.out.println(hm);
+	
+
 		Set<Character> ss = hm.keySet();
 		for(char sss:ss)
 		{
-		if(hm.get(sss)>1)
+		if(hm.get(sss)>2)
 		{
 			System.out.println("char remove from string is :"+sss);
 		}
 		}
 		System.out.println("*****************");
+	}
+}
 		
-		
-		
+	/*	
 		
 		// Alternative Way
 
@@ -56,7 +59,9 @@ if(found==false)
 y=y+x.charAt(i);	
 }
 }
+		
 		System.out.println(y);
 }
 
 }
+*/
