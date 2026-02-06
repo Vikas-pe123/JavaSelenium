@@ -26,7 +26,7 @@ public class RemoveDuplicatesCharFromString {
 		Set<Character> ss = hm.keySet();
 		for(char sss:ss)
 		{
-		if(hm.get(sss)>2)
+		if(hm.get(sss)>3)
 		{
 			System.out.println("char remove from string is :"+sss);
 		}

@@ -14,8 +14,7 @@ public class Addition1To100 {
 			add=add+i;
 		}
 		System.out.println(add);
-		
 	}
 
-	
+
 }

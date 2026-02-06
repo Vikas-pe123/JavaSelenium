@@ -3,7 +3,7 @@ package NumberProgram;
 public class PrintPrimeNum {
 public static void main(String[] args) {
 	int d=0;
-	for(int i=1; i<15; i++)
+	for(int i=1; i<30; i++)
 	{
 		for(int j=2; j<i; j++)
 		{

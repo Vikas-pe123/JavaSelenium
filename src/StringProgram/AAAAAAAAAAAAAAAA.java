@@ -1,54 +1,28 @@
 package StringProgram;
-import java.util.Arrays;
+
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class AAAAAAAAAAAAAAAA {
-public static void main(String[] args) {
-	/*String s1 ="race";    String s2 ="care";
-    
-    if(s1.length()==s2.length()){
-      char[] char1 = s1.toCharArray(); char[] char2 = s2.toCharArray();
-        Arrays.sort(char1);  Arrays.sort(char2);
-        
-        if(Arrays.equals(char1, char2)){
-            
-            System.out.println("Anagram");
-        }
-        else
-        {
-           System.out.println("Not Anagram"); }  }
-           */
-
-   //**************************//
-    String x="listena"; 
-	String y="silent";
-	char [] a = x.toCharArray();
-	char [] b = y.toCharArray();
-	Arrays.sort(a);
-	Arrays.sort(b);
-	boolean results = Arrays.equals(a, b);
-	if(results == true)
-	{
-		System.out.println("String is anagram");
-	}
-	else
-	{
-		System.out.println("String is not anagram");
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
+	   public static void main(String[] args) {
+	        
+	        int [] a ={1,2,3,4,5,6};
+	        for(int i=0; i<a.length; i++)
+	        {
+	            if(i%2==0)
+	            {
+	                System.out.print(a[i]+" ");
+	            }
+	        }
+	        for(int i=0; i<a.length; i++)
+	        {
+	            if(i%2==1)
+	            {
+	                System.out.print(a[i]+" ");
+	            }
+	        }
+	    
+	        }
 }

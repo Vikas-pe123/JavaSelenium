@@ -2,11 +2,13 @@ package ALLNumberInterviewPrograms;
 
 public class SumOfTwoNumbers {
 public static void main(String[] args) {
+String s="nayan";
+String rev="";
+for(int i=s.length()-1; i>=0; i--)
+	{
 	
-    int a=10; 
-	int b=20;
-	int c=a+b;
-	System.out.println(c);
-	
+	rev=rev+s.charAt(i);
+	}
+System.out.println(rev);
 }
 }

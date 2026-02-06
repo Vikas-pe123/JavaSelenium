@@ -4,7 +4,7 @@ public class ReverseEachCharInWord {
 	public static void main(String[] args) {
 		
 		String s="madam nayan level nitin ab";
-		String rev="";
+		String rev=" ";
 		String [] splitvalue=s.split(" ");
 		for(String Splitvalue:splitvalue)
 		{
